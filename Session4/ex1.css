@@ -1,0 +1,30 @@
+h1{
+  color: #56ff2d;
+}
+h2{
+  color: #555555;
+}
+h4{
+  color: #cccccc;
+}
+h3{
+  color: #b3d4fc;
+}
+p{
+  color: #e9bfff;
+}
+.my-name{
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+#my-ex{
+  color: black;
+  font-size: 40px;
+}
+.my-profile .my-name{
+  font-size: 40px;
+}
+.text1, .text2{
+  font-size: 12px;
+}

@@ -1,0 +1,31 @@
+
+#p1{
+  color: #ffbf1a;
+  font-size: 25px;
+}
+#p2{
+  color: #56ff2d;
+  font-size: 18px;
+}
+p.inRight{
+  text-align: right;
+  font-size: small;
+}
+.div1{
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  top: 30%;
+  left: 30%;
+  border-radius: 5% 5% 5% 5%;
+  border: 5px solid aqua;
+}
+body{
+  background-color: aqua;
+}
+hr{
+  width:80%;
+  size : 1px;
+  align : center;
+  color : red;
+}

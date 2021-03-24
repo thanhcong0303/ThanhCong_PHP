@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "myTestFont";
+  src:url('../AlexBrush-Regular.ttf');
+}
+/*.welcome{
+  font-family: "myTestFont";
+  font-size: 100px;
+  height: 200px;
+  border: 1px solid #888888;
+  text-align: center;!*cân theo chiều ngang*!
+  line-height: 200px;!*cân theo chiều dọc*!
+  text-shadow: #cccccc;
+}*/
+.welcome1{
+  height: 200px;
+  width: 300px;
+  border: 1px dashed black;
+  padding: 40px ;
+}
+#id1
+{
+  height: 100px;
+  width: 50px;
+  border: 1px dashed #222222;
+  padding: 5px ;
+}
+#id2
+{
+  height: 100px;
+  width: 50px;
+  border: 1px dashed #222222;
+
+}
