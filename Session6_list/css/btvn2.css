@@ -1,0 +1,99 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  background-color: #e0eeff;
+}
+hr{
+  width:100%;
+  size : 2px;
+  color : chocolate;
+}
+#p1{
+  color: #ffbf1a;
+  font-size: 25px;
+}
+#p2{
+  color: #56ff2d;
+  font-size: 18px;
+}
+.img-left{
+  float: left;
+  width: 10%;
+}
+.main{
+  text-align: justify;
+  padding: 30px;
+  background-color: white;
+  width: 700px;
+  height: 550px;
+  border: 1px solid black;
+  /*can giua*/
+  margin: 0 auto;
+
+}
+.header{
+  width: 100%;
+}
+#right{
+  text-align: revert;
+
+  float: left;
+  margin: 0 auto;
+}
+
+.list1 ul {
+  list-style-type: none;
+  position: relative;
+}
+.list1 ul li{
+  width: 150px;
+  border-right: 2px solid black;
+  text-align: center;
+  float: left;
+}
+.list1 ul li a{
+  color: #62ff21;
+}
+.list1 ul li #a1{
+  color: #ff8131;
+}
+.list1 ul ul{
+  display: none;
+  position: absolute ;
+  top: 100%
+}
+.list1 ul ul li{
+  float: none;
+}
+/*tô màu hàng chọn*/
+.list ul li:hover >ul{
+  display: block;
+}
+/*coment sau mỗi thẻ (chèn sau nội dung của mỗi ptu)*/
+.list > ul :after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.miss{
+  text-align: right;
+  font-size: small;
+}
+.body{
+  width: 100%;
+}
+.body-left{
+  border-right:1px solid crimson ;
+
+  padding-right: 20px ;
+  margin-top: 10px;
+  margin-bottom: 20px ;
+  width: 55%;
+}
+.body-right{
+  margin: 10px;
+  width: 35%;
+}

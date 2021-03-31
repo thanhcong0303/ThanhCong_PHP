@@ -1,0 +1,51 @@
+.main{
+  text-align: center;
+  width: 800px;
+  border: 1px solid black;
+  /*can giua*/
+  margin: 0 auto;
+}
+.header{
+  height: 40px;
+  width: 800px;
+  border: 1px solid black;
+  /*can giua*/
+  margin: 0 auto;
+}
+.bar{
+  height: 30px;
+  width: 800px;
+  border: 1px solid black;
+  /*can giua*/
+  margin: 0 auto;
+}
+.mid{
+  width: 800px;
+  height: 100px;
+  border: 1px solid black;
+  /*can giua*/
+  margin: 0 auto;
+}
+.index{
+  height: 100px;
+  width: 200px;
+  border: 1px solid black;
+  /*can giua*/
+  margin: 0 auto;
+  float: left;
+}
+.content{
+  height: 100px;
+  width: 596px;
+  border: 1px solid black;
+  /*can giua*/
+  margin: 0 auto;
+  float: left;
+}
+.footer{
+  width: 800px;
+  height: 30px;
+  border: 1px solid black;
+  /*can giua*/
+  margin: 0 auto;
+}

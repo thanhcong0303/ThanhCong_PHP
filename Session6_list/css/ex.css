@@ -1,0 +1,10 @@
+ul li{
+  list-style-type: decimal;
+}
+
+ol li{
+  list-style-type: upper-latin;
+}
+#q1, #q2, #q3{
+  height: 800px;
+}

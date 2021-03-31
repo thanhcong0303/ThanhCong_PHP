@@ -1,4 +1,7 @@
-
+/**{*/
+/*  margin: 0 auto;*/
+/*  padding: 0 auto;*/
+/*}*/
 #p1{
   color: #ffbf1a;
   font-size: 25px;
@@ -12,20 +15,19 @@ p.inRight{
   font-size: small;
 }
 .div1{
+  margin: 0 auto;
   background-color: white;
+
   width: 50%;
   height: 50%;
-  top: 30%;
-  left: 30%;
   border-radius: 5% 5% 5% 5%;
-  border: 5px solid aqua;
+  border: 2px solid black;
 }
 body{
-  background-color: aqua;
+  background-color: #ffbf1a;
 }
 hr{
   width:80%;
-  size : 1px;
-  align : center;
-  color : red;
+  size : 2px;
+  color : #ffbf1a;
 }

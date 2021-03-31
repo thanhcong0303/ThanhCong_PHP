@@ -1,0 +1,29 @@
+*{
+  margin: 0 ;
+  padding: 0;
+}
+div{
+  margin-left: 150px;
+  border: 1px solid black;
+  width: 300px;
+}
+ul{
+  list-style-type: none;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+ul li{
+  width: 200px;
+  border: 1px solid #32a52a;
+  margin-right: 50px;
+}
+ul li a {
+  display: block;
+  padding: 1px 1px 1px 1px;
+  text-decoration: none;
+  font-weight: bold;
+  color: brown;
+}
+ul li a.t30s{
+  background-color: #b5ffb4;
+}
