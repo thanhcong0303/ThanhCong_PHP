@@ -1,0 +1,14 @@
+table{
+  width: 800px;
+  /*bỏ viền dư*/
+  border-collapse: collapse;
+}
+table, tr, td, th{
+  border: 1px solid grey;
+ }
+thead,tfoot{
+  background-color: chocolate;
+}
+td:nth-child(2){
+  color: cornflowerblue;
+}

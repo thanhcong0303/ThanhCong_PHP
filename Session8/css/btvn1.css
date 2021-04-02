@@ -1,0 +1,36 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  width: 800px;
+  margin: 20px;
+}
+
+.tong1, .tong2{
+  float: left;
+  width: 40%;
+}
+.dangnhap, .dang_ky{
+  margin-top: 30px;
+  border: 2px solid darkgray;
+  width: 70%;
+  padding: 10px;
+}
+#txt_left{
+  float: left;
+  width: 40%;
+}
+#last_name, #first_name{
+  width: 90%;
+}
+
+#txt_right{
+  float: left;
+  width: 40%;
+  margin-left: 20px ;
+}
+p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}

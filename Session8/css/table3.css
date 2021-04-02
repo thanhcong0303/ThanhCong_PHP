@@ -1,0 +1,36 @@
+.table{
+  overflow-x: scroll;
+}
+table{
+  width: 100%;
+  /*bỏ viền dư*/
+  border-collapse: collapse;
+  font-size: 30px;
+  text-align: center;
+}
+table, tr, td, th{
+  border: 1px solid grey;
+}
+thead{
+  font-weight: bold;
+}
+td:nth-child(2){
+  color: black;
+}
+#t1, #t2, #t3, #t4, #t5{
+  background-color: yellow;
+}
+#t2, #t3, #t4, #t5{
+  width: 80px;
+}
+
+#tab3{
+  background-color: yellow;
+}
+td{
+  color: darkorchid;
+}
+#tab2 td{
+  color: red ;
+}
+

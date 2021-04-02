@@ -1,0 +1,12 @@
+table{
+  width: 800px;
+  border-collapse: collapse;
+}
+table, tr, td, th{
+  border:1px solid black;
+  text-align: center;
+}
+th{
+  background-color: cyan;
+  font-weight: bold;
+}

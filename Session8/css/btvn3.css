@@ -1,0 +1,45 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+h1, .content{
+  color: darkblue;
+  text-decoration-line: underline;
+  text-align: center;
+}
+.tong1{
+  padding-top: 20px;
+  background-color: white;
+  width: 800px;
+  height: 1300px;
+}
+.tong2{
+  border: 5px dashed black;
+  background-image: linear-gradient(purple, pink);
+  width: 750px;
+  height: 1200px;
+}
+.label1{
+  margin: 20px;
+
+  float: left;
+  width: 30%;
+}
+p{
+  color: white;
+  margin-bottom: 15px;
+}
+.textto{
+  margin: 20px;
+  float: left;
+}
+#address1, #caf_id1, #qualification_id1, .label1{
+  height: 160px;
+}
+#address2, #caf_id2, #qualification_id2, .textto{
+  width: 300px;
+  height: 150px;
+}
