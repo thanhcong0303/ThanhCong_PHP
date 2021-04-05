@@ -1,0 +1,16 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+table{
+  margin: 50px;
+}
+table, td,th{
+  width: 850px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+td, th{
+  padding: 10px;
+  text-align: center;
+}

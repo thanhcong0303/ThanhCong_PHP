@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="b3.css">
+</head>
+<body>
+    <form>
+      <div class="topnav">
+        <div class="content">
+          <p><b>Quản lý hàng hóa</b>/ Thêm mới hàng hóa</p>
+            <form id="form1">
+              <button id="quaylai"><i class='fas fa-arrow-left'></i> Button </button>
+              <button id="luu"><i class='fas fa-save'></i> Button</button>
+            </form>
+          </div>
+        </div>
+
+
+        <!--        1-->
+        <!--        2-->
+        <!--        3-->
+        <!--        4-->
+
+
+
+      <div class="body_1">
+        <div class="content">
+          <p>Thông tin cơ bản</p>
+        </div>
+        <fieldset>
+          <div class="col-25">
+            <label for="loaisanpham">Loại sản phẩm</label>
+          </div>
+          <div class="col-75">
+            <select id="loaisanpham" name="loaisanpham">
+              <option value="dichvu">Dịch vụ</option>
+              <option value="dichvu">Dịch vụ</option>
+              <option value="dichvu">Dịch vụ</option>
+              <option value="dichvu">Dịch vụ</option>
+            </select><br>
+          </div>
+          <div class="col-25">
+            <label for="madichvu">Mã dịch vụ (SKU)</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="madichvu" id="madichvu" placeholder="Mã hàng hóa tự đông"><i class="fas fa-exclamation-circle icon"></i><br>
+          </div>
+          <div class="col-25">
+            <label for="mavach">Mã vạch</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="mavach" id="mavach" placeholder="Mã vạch sản phẩm"> <i class="fas fa-exclamation-circle icon"></i><br>
+          </div>
+          <div class="col-25">
+            <label for="tendichvu" class="control-label">Tên Dịch vụ</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="tendichvu" id="tendichvu" ><br>
+          </div>
+          <div class="col-25">
+            <label for="nhomdichvu">Nhóm dịch vụ</label>
+          </div>
+          <div class="col-75">
+            <select id="nhomdichvu" name="nhomdichvu" >
+              <option value="dichvu">Dịch vụ</option>
+              <option value="dichvu">Dịch vụ</option>
+              <option value="dichvu">Dịch vụ</option>
+              <option value="dichvu">Dịch vụ</option>
+            </select><br>
+          </div>
+          <div class="col-25">
+            <label for="giaban" class="control-label">Giá bán</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="giaban" id="giaban" ><br>
+          </div>
+          <div class="col-25">
+            <label for="quanly">Quản lý theo Serial/IMEI</label>
+          </div>
+          <div class="col-75">
+            <input type="checkbox" name="quanly" id="quanly" ><br>
+          </div>
+        </fieldset>
+      </div>
+        <!--        1-->
+        <!--        2-->
+        <!--        3-->
+        <!--        4-->
+        <div class="body_2">
+          <div class="content">
+            <p >Ảnh hàng hóa</p>
+          </div>
+          <fieldset>
+            <button id="anhhanghoa"><i class='far fa-image'></i> Thêm Ảnh</button>
+          </fieldset>
+
+        </div>
+    </form>
+</body>
+</html>

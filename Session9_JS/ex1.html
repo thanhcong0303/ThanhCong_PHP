@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <!--  Internal-->
+
+</head>
+<body>
+<!--  Inline-->
+  <p onclick="alert('Test Click')">Click me</p>
+  <div id="div1">Test click</div>
+<!--html external-->
+  <div id="div2" onclick="testExternal();">Test click2</div>
+<!--có thể thay đổi nội dung HTML-->
+  <div id="div3">Đây là nội dung đầu tiên</div>
+  <a href="#" onmouseover="div3();" onmouseleave="div3_2();">Div3</a>
+
+
+<!--có thể thay đổi hình ảnh HTML-->
+  <img src="anhnghethuat.jpg" alt="Test image" id="change_image" width="200" height="200">
+  <a href="#" onclick="changeImage();">Change image</a>
+
+<!--có thể thay đổi thuộc tính HTML-->
+
+  <script type="text/javascript">
+    document.getElementById("div1").innerHTML= "Hello World";
+    document.getElementById("div1").style.color="red";
+  </script>
+<script type="text/javascript" src="ex1.js"></script>
+</body>
+</html>
