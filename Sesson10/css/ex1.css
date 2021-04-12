@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin :0 auto;
+}
+body{
+  width: 80%;
+}
+.main1,.main2{
+  width: 50%;
+  margin :0 auto;
+  border : 1px solid black;
+}
+.main1  .small-img{
+  border : 1px solid black;
+  margin:20px;
+  float: left;
+  width: 40%;
+  height: 100px;
+}
+.main2 .big-img{
+  width: 90%;
+  margin:20px;
+}
