@@ -1,0 +1,28 @@
+/**{*/
+/*  margin: 0 auto;*/
+/*  padding: 0;*/
+/*}*/
+form{
+  padding: 15px;
+  margin: 30px;
+  width: 400px;
+  height: 300px;
+  border : 1px solid #191f10;
+}
+form div{
+  margin: 10px;
+}
+form div label{
+  float: left;
+  width: 30%;
+
+}
+form div #gender label{
+  float: none;
+}
+form div #gender {
+  float: left;
+  width: 60%;
+}
+
+

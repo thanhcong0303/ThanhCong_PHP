@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript" src="js/form.js"></script>
+  <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+<form  action="#" method="post" >
+  <div>
+    <label class = "thongtin">Họ tên : </label>
+    <input type = "text" name = "name1" id = "name1">
+    <span id = "errorName" class="error"></span>
+  </div>
+  <div>
+    <label class = "thongtin">Số đầu kỳ : </label>
+    <input type = "text" name = "first_number" id = "first_number">
+    <span id = "errorNumFirst" class="error"></span>
+  </div>
+  <div>
+    <label class = "thongtin">Số cuối kỳ : </label>
+    <input type = "text" name = "last_number" id = "last_number">
+    <span id = "errorNumLast" class="error"></span>
+  </div>
+  <div>
+    <label class = "thongtin">Giới tính : </label>
+    <div id="gender">
+      <input type="radio" id="nam" name="gender" value="male">
+      <label for="nam">Nam</label><br>
+      <input type="radio" id="nu" name="gender" value="female">
+      <label for="nu">Nữ</label><br>
+    </div>
+    <span id = "errorGender" class="error"></span>
+  </div>
+  <div>
+    <label class = "thongtin">Ngày sinh :</label>
+    <input type = "date" name = "date_of_birth" id = "date_of_birth">
+    <span id = "errorDate" class="error"></span>
+  </div>
+  <div>
+    <label class = "thongtin">Ngày đầu kỳ :</label>
+    <input type = "date" name = "first_day" id = "first_day">
+    <span id = "errorDateFirst" class="error"></span>
+  </div>
+  <div>
+    <label class = "thongtin">Ngày cuối kỳ :</label>
+    <input type = "date" name = "last_day" id = "last_day">
+    <span id = "errorDateLast" class="error"></span>
+  </div>
+  <div class="content">
+    <input id="submitBox" type="submit" value="Submit" onclick="validateForm();">
+  </div>
+  <div>
+    <p id="printBill"> </p>
+  </div>
+</form>
+
+</body>
+</html>
