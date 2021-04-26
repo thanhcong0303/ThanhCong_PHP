@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+}
+body{
+  margin-top: 50px;
+  height: 100%;
+  background-image: url("../img/ailatrieuphu.png");
+
+}
+#wrapper{
+  height: 100%;
+  margin: 0 auto;
+}
+
+#question{
+  margin-top: 50px;
+  height: 150px;
+  width: 80%;
+  border: 3px solid cornsilk ;
+  background-color: cornsilk;
+}
+
+.box{
+  float: left;
+  height: 50px;
+  width: 400px;
+  border: 3px solid black ;
+  padding: 20px;
+  margin: 20px;
+  background: darkgrey;
+}
+
+#welcomeScreen{
+  margin: 50px auto;
+}

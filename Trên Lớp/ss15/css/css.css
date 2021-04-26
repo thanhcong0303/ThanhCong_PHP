@@ -1,0 +1,23 @@
+img{
+  width: 100px;
+  vertical-align: text-top;
+  float: left;
+  margin-right: 10px ;
+}
+h1{
+  font-size: 120%;
+  color: blue;
+  transition: font-size 3s ease-out 2s, color 3s ease-in 2s;
+}
+h1:hover{
+  font-size: 180%;
+  color: red;
+}
+#qe21 div{
+  overflow: hidden;
+  height: 0;
+  transition: height 0s ease-in-out;
+}
+#qe21 div:target{
+  height: 60px;
+}

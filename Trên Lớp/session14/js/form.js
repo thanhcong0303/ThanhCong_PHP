@@ -17,8 +17,9 @@ function validateForm(){
   let so100tiep = 2000;
   let so200trolen = 5000;
   let name1, first_number, last_number, gender, date_of_birth, first_day, last_day;
+  let printBill = ' ';
 
-  name1 =  document.getElementById('name1').value;
+  name1 =  document.getElementById("name1").value;
   first_number = document.getElementById("first_number").value;
   last_number = document.getElementById("last_number").value;
   gender = document.getElementById("gender").value;
@@ -26,7 +27,7 @@ function validateForm(){
   first_day = document.getElementById("first_day").value;
   last_day = document.getElementById("last_day").value;
 
-  if(name1 === " ") {
+  if(name1 === '') {
     document.getElementById("errorName").innerHTML = "Error !!";
   } else {
     document.getElementById("errorName").innerHTML = " ";
@@ -38,7 +39,7 @@ function validateForm(){
     document.getElementById("errorNumFirst").innerHTML = " ";
   }
 
-  if(last_number === "" || last_number < 0 || last_number > first_number) {
+  if(last_number === '' || last_number < 0 || last_number < first_number) {
     document.getElementById("errorNumLast").innerHTML = "Error !!";
   } else {
     document.getElementById("errorNumLast").innerHTML = " ";
@@ -69,7 +70,7 @@ function validateForm(){
   }
 
   let totalNumber =0;
-   totalNumber = socuoiky - sodauky;
+   totalNumber = last_number - first_number;
   if (totalNumber <= 50) {
     totalMoney = totalNumber * so50dau;
     return totalMoney;
@@ -91,12 +92,12 @@ function validateForm(){
   printBill += "<p>Ngày cuối Kỳ: " + last_day + "</p>";
   printBill += "<p>Tổng tiền: " + totalMoney + "</p>";
   printBill += "<p style='float: right;'>Chữ Ký: <br>" + name1 + "</p>";
-  if (Elec.gender[0].checked == true) {
+  if (gender[0].checked === true) {
     document.getElementById('printBill').innerHTML = printBill;
     document.getElementById('printBill').style.background = '#24F927';
     document.getElementById('printBill').style.color = 'black';
     document.getElementById('printBill').style.height = '300px';
-    document.getElementById('printBill').style.width = '200px';;
+    document.getElementById('printBill').style.width = '200px';
   }
   else{
     document.getElementById('printBill').innerHTML = printBill;
